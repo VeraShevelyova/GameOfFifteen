@@ -4,7 +4,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 public enum Direction {
-    UP(-4, "U"), RIGHT(1, "R"), DOWN(4, "D"), LEFT(-1, "L");
+    UP(-4, "U"), RIGHT(1, "R"), DOWN(4, "D"), LEFT(-1, "L"); // will write vertically
 
     private int indexMod;
     private String alias;
